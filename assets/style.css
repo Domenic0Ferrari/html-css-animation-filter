@@ -135,7 +135,19 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: giro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
+
+@keyframes giro{
+    0%{
+        transform: rotate(360deg);
+    }
+}
+
+/* fine esercizio 10 */
+
 .ex-11-icon {
     font-size: 60px;
 }
