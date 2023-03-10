@@ -101,6 +101,18 @@
 
 /* fine esercizio 7 */
 
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    border-radius: 30px;
+    filter: invert(1) sepia(1);
+}
+
+/* fine esercizio 8 */
 
 
 
