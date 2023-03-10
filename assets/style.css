@@ -114,16 +114,25 @@
 
 /* fine esercizio 8 */
 
-
-
-
-
-
+/* esercizio 9 */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+
+.ex-9-img:hover{
+    transform: scale(1.5);
+    filter: sepia(1) grayscale(0.5);
+}
+
+.ex-9-img:active{
+    border-radius: 30px;
+}  /* aggiunta personale, non l'ho messo nell'hover S*/
+
+/* esercizio 10 */
+
 .ex-10-icon {
     font-size: 60px;
 }
