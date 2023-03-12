@@ -148,9 +148,36 @@
 
 /* fine esercizio 10 */
 
+/* esercizio 11 */
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: mezzogiro;
+    animation-duration: 3s;
+
+}
+
+@keyframes mezzogiro{
+    0%{
+        transform: rotate(0);
+    }
+
+    75%{
+        transform: rotate(270deg); 
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+/* fine esercizio 11 */
+
+/* inizio esercizio 12 */
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -180,3 +207,126 @@
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: superiore;
+    animation-duration: 3s;
+}
+
+@keyframes superiore{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    50%{
+        top: -10px;
+        left: 60%;
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: inferiore;
+    animation-duration: 3s;
+}
+
+@keyframes inferiore{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    50%{
+        bottom: -10px;
+        right: 60%;
+    }
+
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+/* fine esercizio 12 */
+
+/* inizio esercizio 13 */
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: superiore13;
+    animation-duration: 2s;
+}
+
+@keyframes superiore13{
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    25%{
+        top: -10px;
+        left: 80%;
+    }
+
+    50%{
+        top: 60px;
+        left: 80%;
+    }
+    75%{
+        top: 60px;
+        left: -5%;
+    }
+
+    90%{
+        left: -5%;
+        top: -10px;
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: inferiore13;
+    animation-duration: 2s;
+}
+
+@keyframes inferiore13{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    25%{
+        bottom: -10px;
+        right: 80%;
+    }
+
+    50%{
+        bottom: 60px;
+        right: 80%;
+    }
+
+    75%{
+        bottom: 60px;
+        right: -10%;
+    }
+
+    90%{
+        bottom: -10px;
+        right: -10%;
+    }
+    
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+/* fine esercizio 13 */
